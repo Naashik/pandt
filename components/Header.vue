@@ -24,7 +24,7 @@
 
                                         <ul class="nav nav-pills" id="mainNav">
                                             <li class="nav-item">
-                                                <router-link to="/" exact  class="nav-link" >Home</router-link>
+                                                <router-link to="/" exact  class="nav-link"   >Home</router-link>
                                             </li>
                                             <li class="nav-item">
                                                 <router-link to="/products-and-services"  class="nav-link" >Products & Services</router-link>
@@ -109,6 +109,8 @@ a.active{
 .header-body {
     top: 0;
     position: fixed !important;
+    
+
 }
 
 #header .header-container {
@@ -118,8 +120,6 @@ a.active{
 .navbar-toggler:focus {
   outline: 0;
 }
-
-
 
 
 
